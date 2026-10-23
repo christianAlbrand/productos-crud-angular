@@ -1,0 +1,210 @@
+
+:host {
+  display: block;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.pagina {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.encabezado {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitulo,
+.titulo-panel p {
+  color: #666;
+  font-size: 14px;
+}
+
+.contador {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-center;
+  justify-content: space-between;
+}
+
+.contador span {
+  display: block;
+}
+
+.contador strong {
+  font-size: 24px;
+}
+
+.panel {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.titulo-panel {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.campos {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 15px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.campo label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.campo input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.error-campo {
+  color: red;
+  font-size: 12px;
+}
+
+.acciones-formulario {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.boton {
+  padding: 9px 14px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.boton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primario {
+  color: white;
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.secundario {
+  color: #333;
+  background: #eee;
+}
+
+.mensaje {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.mensaje.exito {
+  color: #166534;
+  background: #e8f5e9;
+}
+
+.mensaje.error {
+  color: #b91c1c;
+  background: #fee;
+}
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #eee;
+}
+
+.nombre-producto {
+  font-weight: bold;
+}
+
+.id {
+  color: #666;
+}
+
+.stock {
+  font-size: 13px;
+}
+
+.acciones-tabla {
+  display: flex;
+  gap: 5px;
+}
+
+.editar {
+  background: #dbeafe;
+  border-color: #93c5fd;
+}
+
+.eliminar {
+  background: #fee2e2;
+  border-color: #fca5a5;
+}
+
+.estado {
+  padding: 20px 0;
+  color: #666;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .pagina {
+    padding: 12px;
+  }
+
+  .campos {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    padding: 12px;
+  }
+
+  
+}

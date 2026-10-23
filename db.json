@@ -1,0 +1,23 @@
+{
+  "productos": [
+    {
+      "nombre": "Monitor Gamer",
+      "precio": 3000,
+      "stock": 10,
+      "id": "uAJImOU88DE"
+    },
+    {
+      "nombre": "Mochila",
+      "precio": 200,
+      "stock": 10,
+      "id": "bUPRQ9HUGb4"
+    },
+    {
+      "nombre": "ttttt",
+      "precio": 60,
+      "stock": 8,
+      "id": "iqDHcemlVFI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
